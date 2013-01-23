@@ -40,5 +40,5 @@ with open(file, 'w') as f:
 
     if inserted:
         f.write('\n')
-        f.write('#endif // %s\n' % var)
+        f.write('#endif  // %s\n' % var)
 
